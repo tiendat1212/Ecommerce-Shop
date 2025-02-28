@@ -2,6 +2,7 @@
 
 ## Giới Thiệu
 **Nguyễn Tiến Đạt - 22010326**
+
 Ecommerce Shop là một nền tảng thương mại điện tử phát triển bằng PHP Laravel, cung cấp trải nghiệm mua sắm trực tuyến với đầy đủ chức năng như quản lý sản phẩm, giỏ hàng, thanh toán và thống kê doanh thu.
 
 ## Chức Năng Chính
