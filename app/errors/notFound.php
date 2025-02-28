@@ -8,7 +8,7 @@
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <base href="http://localhost/WEB2041_Ecommerce/">
+    <base href="http://localhost/Ecommerce-Shop/">
 
     <!-- favicon  -->
     <link rel="apple-touch-icon" sizes="180x180" href="public/images/logo/favicon_io/apple-touch-icon.png">

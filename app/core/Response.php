@@ -2,7 +2,7 @@
 {
     function redirect($uri = "")
     {
-        $url = '/WEB2041_Ecommerce/' . $uri;
+        $url = '/Ecommerce-Shop/' . $uri;
         header('location:' . $url);
         exit;
     }

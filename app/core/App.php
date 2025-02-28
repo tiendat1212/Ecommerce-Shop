@@ -1,7 +1,7 @@
 <?php
 class App
 {
-    // http://localhost/WEB2041_Ecommerce/Home/Default/1/2/3
+    // http://localhost/Ecommerce-Shop/Home/Default/1/2/3
     protected $controller = 'Home';
     protected $action = 'Default';
     protected $params = [];

@@ -286,7 +286,7 @@ class Account extends Controller
         //Tao token
         $token = Format::generateRandomString(64);
         $subject = 'Xác nhận đăng ký.';
-        $body = 'Click vào đây để hoàn thành đăng ký của bạn: <a href="http://localhost/WEB2041_Ecommerce/signup-comfirm/' . $token . '">Xác nhận</a> Đường dẫn sẽ hết hạn trong 15 phút.';
+        $body = 'Click vào đây để hoàn thành đăng ký của bạn: <a href="http://localhost/Ecommerce-Shop/signup-comfirm/' . $token . '">Xác nhận</a> Đường dẫn sẽ hết hạn trong 15 phút.';
 
         // luu tam du lieu vao cookie truoc khi xac nhan
         $tempUser = array(
@@ -403,7 +403,7 @@ class Account extends Controller
         // Create token
         $token = Format::generateRandomString(64);
         $subject = 'Đặt lại mật khẩu.';
-        $body = 'Click vào đây để xác nhận email của bạn: <a href="http://localhost/WEB2041_Ecommerce/account/finalForgotPassword/' . $token . '">Xác nhận</a> Đường dẫn sẽ hết hạn trong 15 phút.';
+        $body = 'Click vào đây để xác nhận email của bạn: <a href="http://localhost/Ecommerce-Shop/account/finalForgotPassword/' . $token . '">Xác nhận</a> Đường dẫn sẽ hết hạn trong 15 phút.';
 
 
         //Send mail
@@ -513,7 +513,7 @@ class Account extends Controller
     {
         Session::destroy();
         Cookie::unsetCookie('keepLogin');
-        header('location: /WEB2041_Ecommerce/');
+        header('location: /Ecommerce-Shop/');
     }
 
     function updateUserCurrent()
