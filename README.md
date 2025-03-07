@@ -87,6 +87,8 @@ Ecommerce Shop là một nền tảng thương mại điện tử phát triển 
 ## Sơ đồ ERD
 ![image](https://github.com/user-attachments/assets/ddfa2274-51f5-4468-adc2-951b32888efb)
 
+## Sơ đồ Usecase
+![image](https://github.com/user-attachments/assets/d34952eb-1af9-4f74-8eb6-ce728d59805f)
 
 
 ## Phát Triển & Nâng Cấp
